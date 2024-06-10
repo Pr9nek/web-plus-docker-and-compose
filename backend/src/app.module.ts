@@ -15,7 +15,7 @@ import { AuthModule } from './auth/auth.module';
 @Module({
   imports: [
     ConfigModule.forRoot({
-      envFilePath: '.env',
+      envFilePath: '../../.env',
       isGlobal: true,
     }),
 
@@ -25,7 +25,7 @@ import { AuthModule } from './auth/auth.module';
       port: Number(process.env.POSTGRES_PORT),
       username: process.env.POSTGRES_USER,
       password: process.env.POSTGRES_PASSWORD,
-      database: process.env.POSTGRES_DATABASE,
+      database: process.env.POSTGRES_DB,
       entities: [User, Wish, Wishlist, Offer],
       synchronize: true,
     }),

@@ -12,6 +12,7 @@
 
 Фронтенд: https://doc.nomorepartiesco.ru
 Бэкенд: https://api.doc.nomorepartiesco.ru
+IP адрес задеплоенного проекта - 158.160.144.222
 
 STACK
 
